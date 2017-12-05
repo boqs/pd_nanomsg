@@ -1,0 +1,4 @@
+#N canvas 0 47 749 719 10;
+#X obj 40 140 print nanomsg;
+#X obj 37 37 nanomsg tcp://127.0.0.1:5555;
+#X connect 1 0 0 0;
